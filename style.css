@@ -1,0 +1,50 @@
+body, button, html {
+    font-family: 'Ubuntu', sans-serif; 
+    background: #ffffff;
+    color: #333d47;
+    font-size: 14px;
+}
+
+button {
+    outline:none;
+    color: #333d47 !important;
+    text-decoration: none;
+    background: #9CD7CC;
+    width: 5em;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    }
+
+button:hover {
+    outline:none;
+    color: #ffffff !important;
+    background: #009578;
+    border-color: #009578 !important;
+    transition: all 0.4s ease 0s;
+}
+
+textarea {
+    width: 80%;
+    font-size: 14px;
+}
+
+#instructions{
+    color: #006854;
+}
+
+.mycontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .mycontainer {
+        width: 85vw;
+        max-width: 85vw;
+    }
+}

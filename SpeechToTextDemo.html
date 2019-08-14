@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>Speech to text demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>
+            Demonstration: 
+        </h1>
+        <h2>
+            Speech recognition using Web Speech API
+        </h2>
+        <h3>
+            <p id="user-agent">ddd</p>
+        </h3>
+        <div class="mycontainer">
+            <div class="mywebapp"> 
+                <div class="input">
+                    <textarea id="textbox" rows="12"></textarea>
+                </div>         
+                <button id="start-btn" title="Record">Record</button>
+                <button id="stop-btn" title="Stop">Stop</button>
+                <p id="instructions">Press the Record button</p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
